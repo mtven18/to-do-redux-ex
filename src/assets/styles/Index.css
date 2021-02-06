@@ -1,0 +1,32 @@
+.container-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.react-logo {
+  height: 100px;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.create-form-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list-wrapper {
+  width: 100%;
+  display: flex;
+  padding: 50px 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
